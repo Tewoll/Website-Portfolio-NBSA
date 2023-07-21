@@ -1,0 +1,262 @@
+/* Button WA  */
+
+.button-contact {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #25D366;
+  border: none;
+  color: #000000;
+  text-align: center;
+  font-size: 15px;
+  padding: 7px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button-contact span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-contact span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-contact:hover span {
+  padding-right: 25px;
+}
+
+.button-contact:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* Button IG */
+
+.button-ig {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #E1306C;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button-ig span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: #ffffff
+}
+
+.button-ig span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  color: #ffffff
+}
+
+.button-ig:hover span {
+  padding-right: 25px;
+  color: #ffffff
+}
+
+.button-ig:hover span:after {
+  color: #ffffff;
+  opacity: 1;
+  right: 0
+}
+
+/* Background About*/
+
+.text-rata {
+  text-align: justify
+}
+
+.about-bg {
+  background-image: url(/home/img/about-img.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: auto;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  background-attachment: fixed;
+}
+
+.asu-bg {
+  background-image: url(/home/img/background-2.png);
+  padding-top: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.core-val-bg {
+  background-image: url(/home/img/bg-12.png);
+  background-color: #f5f6f7;
+  padding-top: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.method-bg {
+  background-image: url(/home/img/bg/bg-yay.png);
+  padding-top: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.home-1-bg{
+  background-image: url(/home/img/bg/backgrounds-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.home-2-bg{
+  background-image: url(/home/img/bg/backgrounds-12.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.home-3-bg{
+  background-image: url(/home/img/bg/bg-yai.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.certificate-yt{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.vision-bg {
+  background-image: url(/home/img/bg-122.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.focus-bg {
+  background-image: url(/home/img/bg/focus.png);
+  padding-top: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.struktur-bg {
+  background-image: url(/home/img/bg/transparent-copy.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+/* css Zoom Hover */
+
+.zoom {
+  padding: 5px;
+  transition: transform .2s;
+  /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  border-radius: 15px;
+  border-style: solid;
+  border-color: black;
+  background-color: whitesmoke;
+  transform: scale(120%);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.about-judul {
+  float: left;
+  padding: 15px 170px;
+  padding-left: 15px;
+  color: #dc5422;
+  text-transform: uppercase;
+  font-size: 40px;
+  background-image: url(/home/img/ye.png);
+  background-repeat: repeat;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  line-height: 1;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.working-judul {
+  text-align: center;
+  margin-left: 50%;
+  padding: 20px;
+  background-image: url(/home/img/jkl.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.judul-about-hal {
+  font-family: 'Odor Mean Chey';
+  font-size: 32px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+  padding: 1% 1%;
+  color: rgb(206, 0, 0);
+  border-left: 6px solid rgb(206, 0, 0);
+  background-color: rgba(211, 211, 211, 0.096)
+}
+
+.judul-home-hal {
+  font-family: 'Odor Mean Chey';
+  text-transform: uppercase;
+}
+
+
+
+.judul-home {
+  font-family: 'Odor Mean Chey';
+  text-align: center;
+  color: rgb(206, 0, 0);
+  border-left: 6px solid rgb(143, 143, 143);
+  border-right: 6px solid rgb(143, 143, 143);
+  text-transform: uppercase;
+  padding-left: 10px
+}
+
+.judul-home-hal-kanan {
+
+  font-family: 'Odor Mean Chey';
+  text-align: end;
+  color: rgb(206, 0, 0);
+  border-right: 6px solid rgb(143, 143, 143);
+  text-transform: uppercase;
+  padding-right: 10px
+}
